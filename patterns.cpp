@@ -155,7 +155,15 @@ void patterns14(int n){
         cout<<endl;
     }
 }
-
+void patterns15(int n){
+    for(int i=0;i<n;i++){
+        char ch='A'+i;
+        for(int j=0;j<=i;j++){
+        cout<<ch<<" ";
+        }
+        cout<<endl;
+        }
+        }
 int main(){
     int n;
     cin>>n;
@@ -168,10 +176,11 @@ int main(){
     // patterns7(n);
     // patterns8(n);
     // patterns10(n);
-        // patterns11(n);
-        // patterns12(n);    
-        // patterns13(n);    
-        patterns14(n);
+    // patterns11(n);
+    // patterns12(n);    
+    // patterns13(n);    
+    // patterns14(n);
+        patterns15(n);
         return 0;
 
 }
