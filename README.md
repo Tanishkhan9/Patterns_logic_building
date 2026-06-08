@@ -1,6 +1,3 @@
-# 100-day-code-dsa-
-
-
 # Pattern Programs in C++
 
 This repository contains 20 classic pattern problems commonly asked in coding interviews and programming courses.
